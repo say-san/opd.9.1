@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<h2>Contact form</h2>
+<p>Let us know, we will confirm your subscription.</p>
+
+<div class="contact">
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>telefoon numer: <input type="numbers" name="numbers" /></label>
+        </p>
+        <p>
+          <label>Leeftijd: <input type="numbers" name="age" /></label>
+        </p>
+        <p>
+          <label>Gebortedatum: <input type="date" min="01-01-1921" max="31-01-2021" value="01-01-2020" name="birthday" /></label>
+        </p>
+        <p>
+          <label>Geslacht: Man <input type="radio" name="gender" value="man"  />Vrouw <input type="radio" name="gender" value="vrouw"  /></label>
+        </p>
+        <p>
+           <label>Favorieten: <br>
+            <input type="checkbox" name="cuisine" value="frans" />Frans<br>
+            <input type="checkbox" name="cuisine" value="italiaans" />Italiaans<br>
+            <input type="checkbox" name="cuisine" value="spaans" />Spaans<br>
+            <input type="checkbox" name="cuisine" value="arabisch" />Arabisch<br>
+           </label> 
+        </p>
+        <p>
+          <label>Schort kleur:
+            <input type="color" name="schort" value="#ffffff" />
+          </label>
+        </p>
+        <p>
+          <label>Biografie <textarea name="biografie">Schrijf je biografie hier op</textarea></label>
+        </p>
+        <p>
+          <label>Recept: <input type="file" name="recept"/></label>
+        </p>
+        <p>
+          <label> Link naar recept <input type="url" name="url" placeholder="https://example.com"/></label>
+        </p>
+        <p>
+          <button type="reset" >reset</button> <button type="submit" >Submit</button>
+        </p>
+      </form>
+      </div>
+
+
+
+
+
+
+
+
+<a class="lin-2" href="./index.html">Back to home</a>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
